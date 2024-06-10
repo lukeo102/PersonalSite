@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Fuel Stats",
+    "path": "fuel",
+    "image": "",
+    "description": "Keep track of your fuel usage with historic graphs"
+  },
+  {
+    "name": "Tile Browser",
+    "path": "tile",
+    "image": "",
+    "description": "A DWM like tiling tab manager"
+  }
+]
