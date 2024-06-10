@@ -4,7 +4,7 @@ This is my personal website to show off my works.
 ## How it works?
 This is static site generator I made myself. 
 
-I add or remove entries from the json files in the config directory and on push to GitHub it will run an action that regenrates the html files in the www folder. 
+I add or remove entries from the json files in the config directory and on push to GitHub it will run an action that regenerates the html files in the www folder. 
 
 Finally, it will trigger a Cloudflare worker to push my changes to Cloudflare pages.
 
@@ -25,3 +25,5 @@ Finally, it will trigger a Cloudflare worker to push my changes to Cloudflare pa
 - 3.c Altering my code but not drastically changing page contents for the purposes of hosting my website without permission, this includes but is not limited to:
 - 3.c.a Changing webpage words while retaining my likeness
 - 3.c.b Altering code while retaining my likeness
+
+4 This repository may contain copyrighted images or graphics that I have permission to use, if you are unsure if you have permission to use them do not. I am not responsible for any legal action or other action take against you for using images from this repository.
