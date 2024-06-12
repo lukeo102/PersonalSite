@@ -32,6 +32,7 @@ jobs:
       run: |
         git config user.email "lukeormiston@gmail.com"
         git config user.name "GH Action"
+        ls -la
         rm www/index.html
         git add .
         git commit -m "Removed old index.html"
