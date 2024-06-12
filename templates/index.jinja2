@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Luke Ormiston</title>
+        <link rel="stylesheet" href="index.css"/>
+    </head>
+    <body class="flex-column">
+        <section id="header">
+
+
+        </section>
+        <section id="main" class="flex-column">
+            <h2>Check Out My Projects!</h2>
+            <section class="flex-row justify-even">
+                {% for project in projects %}
+                    <a class="flex-column flex-card-large justify-left" href="https://{{ project.path }}.lukeweb.net">
+                        <section class="flex-row justify-left">
+                                {% if project.image != "0" %}
+                            <img class="icon" src="images/{{ project.image }}"/>
+                                {% endif %}
+                            <h3>{{ project.name }}</h3>
+                        </section>
+                    <p>{{ project.description }}</p>
+                    </a>
+                {% endfor %}
+            </section>
+
+            <h2>My Friends (they're all cool people!)</h2>
+            <section class="flex-row justify-even">
+                {% for person in friends %}
+                    <a class="flex-column flex-card-small" href="{{ person.website }}">
+                        <section class="flex-row justify-left">
+                                {% if person.image != "0" %}
+                            <img class="icon {% if person.css_class %}{{ person.css_class }}{% endif %}" src="images/{{ person.image }}"/>
+                                {% endif %}
+                            <h3>{{ person.name }}</h3>
+                        </section>
+                        <p>{{ person.description }}</p>
+                    </a>
+                {% endfor %}
+            </section>
+        </section>
+        <section id="footer">
+
+
+        </section>
+    </body>
+</html>

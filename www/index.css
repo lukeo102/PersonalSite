@@ -1,0 +1,80 @@
+:root {
+    --background-colour: #2d383c;
+    --card-transition-colour: #21292c;
+    --font-colour: #f5f4f0;
+}
+
+body {
+    background-color: var(--background-colour);
+    font: 1em "Fira Sans", sans-serif;
+    color: var(--font-colour);
+}
+
+a, p {
+    color: var(--font-colour);
+    text-decoration: none;
+}
+
+h3 {
+    margin: unset;
+    text-decoration: underline;
+}
+
+img {
+    margin: unset;
+    width: 1.5em;
+    height: 1.5em;
+}
+
+.icon {
+    margin-right: 0.2em;
+    padding: 0.1em;
+}
+
+#main {
+    width: 85%;
+    margin: auto;
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+}
+
+.flex-column {
+    display: flex;
+    flex-flow: column;
+    flex-wrap: wrap;
+}
+
+.flex-card-small, .flex-card-large {
+    flex: 0 0 auto;
+    max-width: 15em;
+    min-width: 15em;
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.5em;
+    box-shadow: 0 0 0 var(--card-transition-colour);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.flex-card-large {
+    max-width: 25em;
+    min-width: 25em;
+}
+
+.flex-card-small:hover, .flex-card-large:hover {
+    box-shadow: 0 4px 4px var(--card-transition-colour);
+    opacity: 1;
+}
+
+
+.justify-even {
+    justify-content: space-evenly;
+}
+
+.justify-left {
+    justify-content: flex-start;
+}
+

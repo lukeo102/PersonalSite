@@ -1,30 +1,44 @@
 [
   {
-    "name": "Benjamin Parsons-Willis",
-    "website": "https://vyrz.dev/"
+    "name": "Benjamin",
+    "website": "https://vyrz.dev/",
+    "image": "0",
+    "description": "The bike man"
   },
   {
-    "name": "Fraser Miller",
-    "website": "https://frasermiller.dev/"
+    "name": "Fraser",
+    "website": "https://frasermiller.dev/",
+    "image": "fraser.png",
+    "description": "The old one"
   },
   {
-    "name": "Nour Elfangary",
-    "website": "https://nourel.dev/"
+    "name": "Nour",
+    "website": "https://nourel.dev/",
+    "image": "0",
+    "description": "The UI master"
   },
   {
-    "name": "Andrei Ghita",
-    "website": "https://andreig.dev/"
+    "name": "Andrei",
+    "website": "https://andreig.dev/",
+    "image": "0",
+    "description": "The Rust game engine pioneer"
   },
   {
-    "name": "Mark Turnbull",
-    "website": "https://marksoftwaredev.com/"
+    "name": "Mark",
+    "website": "https://marksoftwaredev.com/",
+    "image": "0",
+    "description": "The seaside chicken whisperer"
   },
   {
-    "name": "Sam Huddart",
-    "website": "https://samh.dev/"
+    "name": "Sam",
+    "website": "https://samh.dev/",
+    "image": "0",
+    "description": "The master of everything programming"
   },
   {
-    "name": "Max Stanford-Taylor",
-    "website": "https://m0on.dev/"
+    "name": "Max",
+    "website": "https://m0on.dev/",
+    "image": "0",
+    "description": "The one who took the better path than university; The AMEX apprentice master"
   }
 ]
