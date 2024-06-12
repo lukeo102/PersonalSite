@@ -10,7 +10,7 @@ on:
     branches: [ "main" ]
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -28,6 +28,18 @@ jobs:
         python -m pip install --upgrade pip
         pip install pathlib
         pip install jinja2
+    - name: Delete old file
+      run: |
+        git config user.email "lukeormiston@gmail.com"
+        git config user.name "GH Action"
+        rm www/index.html
+        git add .
+        git commit -m "Removed old index.html"
     - name: Generate HTML file
       run: |
         python generate.py
+    - name: Push generated HTML
+      run: |
+        git add www/index.html
+        git commit -m "Generated index.html"
+        git push
