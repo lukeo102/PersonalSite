@@ -6,7 +6,7 @@ This is static site generator I made myself.
 
 I add or remove entries from the json files in the config directory and on push to GitHub it will run an action that regenerates the html files in the www folder. 
 
-Finally, it will trigger a Cloudflare worker to push my changes to Cloudflare pages.
+Finally, it will trigger Cloudflare to push my changes to Cloudflare pages.
 
 # License
 1 Anyone may make use of my code for any purpose they see fit, except for purposes outlined in section 3. 
