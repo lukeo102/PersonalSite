@@ -32,8 +32,6 @@ jobs:
       run: |
         git config user.email "lukeormiston@gmail.com"
         git config user.name "GH Action"
-        git checkout main/pages
-        git pull origin main
         ls -la
         rm www/index.html
         git add .
@@ -45,4 +43,4 @@ jobs:
       run: |
         git add www/index.html
         git commit -m "Generated index.html"
-        git push
+        git push -u origin pages
