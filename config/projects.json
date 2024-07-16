@@ -1,12 +1,12 @@
 [
   {
-    "name": "Fuel Stats",
+    "name": "Fuel Stats - WIP",
     "path": "fuel",
     "image": "0",
     "description": "Keep track of your fuel usage with historic graphs"
   },
   {
-    "name": "Tile Browser",
+    "name": "Tile Browser - WIP",
     "path": "tile",
     "image": "tiling.svg",
     "description": "A DWM like tiling tab manager"
