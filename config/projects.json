@@ -1,19 +1,25 @@
 [
   {
     "name": "Visualising Sigma16",
-    "path": "sig16",
+    "path": "sig16.lukeweb.net",
     "image": "0",
     "description": "A development environment Sigma16 -- a educational and research assembly language"
   },
   {
+    "name": "GUTS Website",
+    "path": "https://gutechsoc.com",
+    "image": "guts.webp"
+    "description": "Complete redesign and recreation of the Glasgow University Tech Society website"
+  }
+  {
     "name": "Fuel Stats - WIP",
-    "path": "fuel",
+    "path": "fuel.lukeweb.net",
     "image": "0",
     "description": "Keep track of your fuel usage with historic graphs"
   },
   {
     "name": "Tile Browser - WIP",
-    "path": "tile",
+    "path": "tile.lukeweb.net",
     "image": "tiling.svg",
     "description": "A DWM like tiling tab manager"
   }
