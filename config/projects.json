@@ -1,7 +1,7 @@
 [
   {
     "name": "Visualising Sigma16",
-    "path": "sig16.lukeweb.net",
+    "path": "https://sig16.lukeweb.net",
     "image": "0",
     "description": "A development environment Sigma16 -- a educational and research assembly language"
   },
@@ -13,13 +13,13 @@
   },
   {
     "name": "Fuel Stats - WIP",
-    "path": "fuel.lukeweb.net",
+    "path": "https://fuel.lukeweb.net",
     "image": "0",
     "description": "Keep track of your fuel usage with historic graphs"
   },
   {
     "name": "Tile Browser - WIP",
-    "path": "tile.lukeweb.net",
+    "path": "https://tile.lukeweb.net",
     "image": "tiling.svg",
     "description": "A DWM like tiling tab manager"
   }
