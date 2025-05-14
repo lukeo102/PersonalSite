@@ -1,5 +1,11 @@
 [
   {
+    "name": "Visualising Sigma16",
+    "path": "sig16",
+    "image": "0",
+    "description": "A development environment Sigma16 -- a educational and research assembly language"
+  },
+  {
     "name": "Fuel Stats - WIP",
     "path": "fuel",
     "image": "0",
