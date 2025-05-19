@@ -6,6 +6,12 @@
     "description": "A development environment Sigma16 -- a educational and research assembly language"
   },
   {
+    "name": "Project Gundam",
+    "path": "/project-gundam",
+    "image": "project-gundam/favicon-32x32.png",
+    "description": "Third year university team project"
+  },
+  {
     "name": "GUTS Website",
     "path": "https://gutechsoc.com",
     "image": "guts.webp",

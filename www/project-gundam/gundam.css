@@ -1,0 +1,24 @@
+@import "../index.css";
+
+p a {
+  text-decoration: underline;
+}
+
+.gundam-images {
+  margin: auto;
+}
+
+.gundam-images img {
+  height: 30em;
+  width: auto;
+  margin: 5em 2em;
+  border: 1px solid var(--border-colour);
+  border-radius: 0.5em;
+  padding: 0.25em;
+}
+
+.flex-card-small {
+  width: fit-content;
+  min-width: unset;
+  max-width: unset;
+}
